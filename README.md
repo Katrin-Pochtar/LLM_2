@@ -39,14 +39,6 @@
 |---|---|---|---|
 | Обуч. параметры | 10M (2.6%) | 10M (1.7%) | 596M (100%) |
 | Квантизация | 4-bit (nf4) | нет | нет |
-| Learning rate | 2e-4 | 2e-4 | 5e-5 |
-| Batch size | 2 | 2 | 2 |
-| Grad. accumulation | 4 | 4 | 4 |
-| Scheduler | cosine | cosine | cosine |
-| Warmup | 10% | 10% | 10% |
-| LoRA r / alpha | 16 / 32 | 16 / 32 | — |
-| LoRA target | all-linear | all-linear | — |
-| Gradient checkpointing | нет | нет | да |
 | VRAM пик | 5.66 GB | 5.97 GB | 13.75 GB |
 | Время обучения | 3.8 мин | 2.9 мин | 1.9 мин |
 
